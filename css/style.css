@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -8,22 +7,19 @@ body {
 }
 
 .carousel-container {
-  margin-top: 66px;
+  margin-top: 0;
   padding: 0;
   margin-bottom: 50px;
 }
 
-.carousel-text-container {
-  margin-top: 20px;
+.card-carousel-text {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.carouselTitle {
-  margin-top: 20px;
-}
-
-.carouselText {
-  padding: 10px;
-  margin: 20px;
+.card-spacer-left {
+  margin-left: 12px;
 }
 
 .testimonies {
@@ -34,6 +30,10 @@ body {
 
 .testimonies-cards {
   margin: 0px 7.5% 5px;
+}
+
+.card-text {
+  font-size: 14px;
 }
 
 .section-testimonies {
@@ -55,8 +55,8 @@ body {
 }
 
 .section-services .card-title {
-  opacity: 0;
-  color: #fff;
+  color: #14213d;
+  text-shadow: 2px 2px #fff;
 }
 
 .services-cards:hover .card-img {
@@ -66,6 +66,10 @@ body {
 }
 .services-cards:hover .card-title {
   opacity: 100;
+  text-decoration: underline;
+  text-shadow: none;
+  color: #fff;
+  transform: scale(1.5);
   transition: all 1s ease;
 }
 
@@ -73,6 +77,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .footer-list a {
+  text-decoration: none;
+  color: #797e84;
+}
+
+footer .nav-item:hover {
+  transform: translateY(-2px);
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+.bi:hover {
+  fill: #fca311;
+  transform: translateY(-2px);
+  transition: all 0.5s ease;
 }
 
 /*# sourceMappingURL=style.css.map */
