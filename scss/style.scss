@@ -22,6 +22,13 @@ body {
     margin-left: 12px;
 }
 
+@media (max-width: 768px) {
+    .carousel-container .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .testimonies {
     margin: 0px 7.5% 0px;
     padding: 10px 0px 10px;
