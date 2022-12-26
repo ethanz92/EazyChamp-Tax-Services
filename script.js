@@ -10,13 +10,13 @@ const title2 = "BOOKKEEPING";
 const title3 = "TAX RETURNS";
 
 const text0 =
-  "Over time your business and personal circumstances will develop and evolving tax legislation will bring new obligations. Your taxation requirements will also change. The right advice at the right time can make all the difference. Over time your business and personal circumstances will develop and evolving tax legislation will bring new obligations. Your taxation requirements will also change. The right advice at the right time can make all the difference."
+  "Over time your business and personal circumstances will develop and evolving tax legislation will bring new obligations. Your taxation requirements will also change. The right advice at the right time can make all the difference."
 const text1 =
-  "Our team of accredited SMSF Accountants specialise in automation systems, having built our own toolkit on top of the Class Super platform. This allows us to offer a service founded on unparalleled technical excellence while ensuring value in everything we do! Our team of accredited SMSF Accountants specialise in automation systems, having built our own toolkit on top of the Class Super platform. This allows us to offer a service founded on unparalleled technical excellence!";
+  "Our team of accredited SMSF Accountants specialise in automation systems, having built our own toolkit on top of the Class Super platform. This allows us to offer a service founded on unparalleled technical excellence while ensuring value in everything we do!";
 const text2 =
-  "Our Bookkeeping solutions are designed for small to medium sized businesses, from a cross-section of industries. We know that with the right Bookkeeping systems and support, we can get you back to focusing on what matters most to you - building your business by providing solutions to save you time and money, while giving you peace of mind. We know that with the right Bookkeeping systems and support, we can get you back to focusing on what matters most to you.";
+  "Our Bookkeeping solutions are designed for small to medium sized businesses, from a cross-section of industries. We know that with the right Bookkeeping systems and support, we can get you back to focusing on what matters most to you.";
 const text3 =
-  "EazyChamp works hard to help everyone with their individual tax returns so that you get the best income tax return you deserve. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus assumenda aliquid velit doloremque. Obcaecati aspernatur recusandae id provident ullam nesciunt illum? Et, inventore tempore voluptates exercitationem magnam nam sit! Et, inventore tempore voluptates exercitationem magnam nam sit!";
+  "EazyChamp works hard to help everyone with their individual tax returns so that you get the best income tax return you deserve. We can get you back to focusing on what matters most to you.";
 
 homeCarousel.addEventListener("slide.bs.carousel", (event) => {
   const currentSlide = document
