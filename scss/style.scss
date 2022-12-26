@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.carousel-container {
+    margin-top: 66px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.carousel-text-container {
+    margin-top: 20px;
+}
+
+.carouselTitle {
+    margin-top: 20px;
+
+}
+.carouselText {
+    padding: 10px;
+    margin: 20px;
+}
+
+.testimonies {
+    margin: 0px 7.5% 0px;
+    padding: 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.testimonies-cards {
+    margin: 0px 7.5% 5px;
+}
+
+.section-testimonies {
+    background-color: #e5e5e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-services {
+    padding-top: 30px;
+}
+
+.services-card-container {
+    margin: 0px 7.5% 5px;
+}
+
+.card-img {
+    -webkit-filter: brightness(100%);
+}
+
+.section-services .card-title {
+    opacity: 0;
+    color: #fff;
+}
+
+.services-cards:hover {
+    .card-img{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    .card-title {
+        opacity: 100;
+        transition: all 1s ease;
+    }
+}
+
+.services-cards div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
