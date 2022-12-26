@@ -162,15 +162,23 @@ footer .nav-item:hover {
   position: relative;
 }
 
-.aboutUs-text p {
+.aboutUs-text h5 {
   position: absolute;
-  bottom: 16px;
+  bottom: 0px;
 }
 
 .aboutUs-container:hover .card-img {
   -webkit-filter: brightness(50%);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.aboutUs-text-container:hover {
+  background-color: #14213d;
+  transition: all 0.5s ease;
+}
+.aboutUs-text-container:hover p {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

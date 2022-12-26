@@ -173,9 +173,9 @@ footer .nav-item:hover {
   position: relative;
 }
 
-.aboutUs-text p {
+.aboutUs-text h5 {
   position: absolute;
-  bottom: 16px;
+  bottom: 0px;
 }
 
 .aboutUs-container:hover {
@@ -183,5 +183,13 @@ footer .nav-item:hover {
     -webkit-filter: brightness(50%);
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+  }
+}
+
+.aboutUs-text-container:hover {
+  background-color: $blue;
+  transition: all 0.5s ease;
+  p {
+    color: $white;
   }
 }
